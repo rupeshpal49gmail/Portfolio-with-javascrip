@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:ital,wght@0,400;1,700&family=Ubuntu&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #a2a1a9;
+    
+}
+
+nav {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: #1a2387;
+    color: #fff;
+    padding-left: 90px;
+}
+nav ul li {
+    padding: 0 12px;
+}
+
+.homeoage {
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+}
